@@ -1,5 +1,8 @@
 #this code should make the robot bounce off walls and turn, like a rumba
 
+#!/usr/bin/env python3
+# So program can be run from Brickman
+
 from ev3dev.ev3 import *
 from time import sleep   #sleep(1)
 m = LargeMotor('outB')
