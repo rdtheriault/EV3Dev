@@ -4,6 +4,9 @@ Using Python to control the EV3
 More examples can be found https://sites.google.com/site/ev3python/
 
 
+## BrickPi
+There is a BrickPi Notes section that goes over issues and differences if you are using it
+
 ## Current Projects
 ###Coin Detector
  - Uses GetPosition.py then CoinDetector.py
