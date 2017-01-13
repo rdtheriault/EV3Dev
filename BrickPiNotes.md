@@ -1,5 +1,8 @@
 #Notes on using a BrickPi vs EV3
 
+##Start up using screen
+Mine hangs up at UTMP, you can use ALT F2 to get to TTY(2) and still run the programs (so far I can only use the screen)
+
 ##Outputs and Inputs
 Have to define them first
 ```
