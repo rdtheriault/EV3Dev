@@ -3,6 +3,14 @@
 ##Start up using screen
 Mine hangs up at UTMP, you can use ALT F2 to get to TTY(2) and still run the programs (so far I can only use the screen)
 
+Also found I needed to 
+
+```
+sudo nano /boot/flash/config.txt
+```
+
+and uncomment out the brickpi settings, did three not sure if all are needed at this point
+
 ##Outputs and Inputs
 Have to define them first
 ```
