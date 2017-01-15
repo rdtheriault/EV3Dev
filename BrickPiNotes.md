@@ -1,7 +1,17 @@
 #Notes on using a BrickPi vs EV3
 
+##Main Source
+Here is the offical side by side info http://www.ev3dev.org/docs/platform-comparison/
+
 ##Start up using screen
-Mine hangs up at UTMP, you can use ALT F2 to get to TTY(2) and still run the programs (so far I can only use the screen)
+Mine hangs up at UTMP, you can use ALT F2 to get to tty2 and still run the programs (so far I can only use the screen)
+
+I was informed you can run the following commands to get to tty1
+
+```
+sudo systemctl stop brickman.service
+sudo systemctl disable brickman.service
+```
 
 Also found I needed to 
 
