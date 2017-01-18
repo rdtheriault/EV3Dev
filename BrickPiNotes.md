@@ -42,3 +42,9 @@ from EV3dev.ev3 import *
 outC = 'ttyAMA0:MC'
 mC = LargeMotor(outC)
 ```
+
+##Network
+I found that ifconfig did not work for me so I had to use
+```
+ip addr show
+```
