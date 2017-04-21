@@ -81,3 +81,8 @@ while True:
         if ts.value() == 1:
                 m.stop()
 ```
+From Bash
+```
+echo ev3-analog > /sys/class/lego-port/port0/mode
+echo lego-nxt-touch > /sys/class/lego-port/port0/set_device
+```
