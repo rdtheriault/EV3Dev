@@ -2,6 +2,10 @@
 
 ##Main Source
 Here is the offical side by side info http://www.ev3dev.org/docs/platform-comparison/
+--Sensor Issues
+https://github.com/ev3dev/ev3dev/issues/374
+https://github.com/ev3dev/ev3dev/issues/529
+http://docs.ev3dev.org/projects/lego-linux-drivers/en/ev3dev-jessie/brickpi.html#input-ports
 
 ##Start up using screen
 Mine hangs up at UTMP, you can use ALT F2 to get to tty2 and still run the programs (so far I can only use the screen)
