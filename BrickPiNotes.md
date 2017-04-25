@@ -62,6 +62,10 @@ ip addr show
 ##More Input info
 Have to define them first (so far)
 ```
+import subprocess
+subprocess.call("echo ev3-analog > /sys/class/lego-port/port0/mode", shell=True)
+subprocess.call("echo lego-ev3-touch > /sys/class/lego-port/port0/set_device", shell=True)
+
 from ev3dev.ev3 import *
 from time import sleep
 
@@ -84,5 +88,5 @@ while True:
 From Bash
 ```
 echo ev3-analog > /sys/class/lego-port/port0/mode
-echo lego-nxt-touch > /sys/class/lego-port/port0/set_device
+echo lego-ev3-touch > /sys/class/lego-port/port0/set_device
 ```
