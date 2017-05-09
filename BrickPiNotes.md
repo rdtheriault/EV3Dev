@@ -70,11 +70,6 @@ from ev3dev.ev3 import *
 from time import sleep
 
 m = LargeMotor('ttyAMA0:MA')
-p = Device('lego-port', name_pattern='*', address='ttyAMA0:S1')
-print(p.connected)
-p.set_attr_string('mode', 'ev3-analog')
-p.set_attr_string('set_device', 'lego-ev3-touch')
-
 
 ts = TouchSensor('ttyAMA0:S1')
 assert ts.connected, "Connect TouchSensor"
