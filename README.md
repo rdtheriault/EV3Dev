@@ -18,3 +18,9 @@ There is a BrickPi Notes section that goes over issues and differences if you ar
  - Make a robot with two touch sensors and two motors bounce off a wall and keep going
  - Refer to code to see what ports are used
  - The code is pretty crude, it was more about the process of building the robot and trial and error of the code
+
+Delete files for later user
+```
+cd ..
+sudo rm -r robot/*
+```
